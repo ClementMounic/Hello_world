@@ -14,11 +14,11 @@ jobs:
     steps:
       # Vérification du code (Check out the repo)
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       # Installer Node.js (par exemple, si vous utilisez ESLint)
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: '22'
 
